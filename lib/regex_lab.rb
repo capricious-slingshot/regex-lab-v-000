@@ -5,8 +5,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  words = text.split(' ')
-	words.grep(/ \b(un)/ && /(ing)\b/)
+  # words = text.split(' ')
+	# words.grep(/ \b(un)/ && /(ing)\b/)
   text.scan(/un\w+ing/i)
 end
 
